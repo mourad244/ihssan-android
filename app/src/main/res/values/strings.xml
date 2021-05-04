@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="welcome">Bienvenu</string>
+    <string name="profil">Vous etes ?</string>
+    <string name="association">Association</string>
+    <string name="donateur">Donateur</string>
+    <string name="erreurAuth">Email ou mot de passe invalide</string>
+    <string name="email">Email</string>
+    <string name="password">mot de pass</string>
+    <string name="saveUser">Save user</string>
+    <string name="btnLog">Login</string>
+    <string name="associations">Associations</string>
+    <string name="biens">Biens</string>
+    <string name="associationsList">liste des associations</string>
+    <string name="forgotpass">forget password</string>
 </resources>

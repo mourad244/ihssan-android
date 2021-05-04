@@ -6,33 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:text="@string/welcome"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/profil"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        />
+    tools:context=".Accueil">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:gravity="center"
+        android:layout_marginTop="250dp"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,7 +20,7 @@
             android:gravity="center"
             android:layout_marginRight="40dp"
             android:orientation="vertical"
-            android:onClick="loginAssociation">
+            android:onClick="listeAssociations">
             <ImageView
                 android:id="@+id/associationIcon"
                 android:layout_width="100dp"
@@ -51,8 +31,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textStyle="bold"
-
-                android:text="@string/association"/>
+                android:text="@string/associations"/>
         </LinearLayout>
 
         <LinearLayout
@@ -60,7 +39,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:onClick="toListAssociation">
+            android:onClick="listBiens">
             <ImageView
                 android:id="@+id/donateurIcon"
                 android:layout_width="100dp"
@@ -71,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="@string/donateur"/>
+                android:text="@string/biens"/>
         </LinearLayout>
 
     </LinearLayout>
